@@ -1,0 +1,239 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {
+	width:600px;
+	color:#bbb;
+	background-color:#FFF;
+	border:4px solid #444;
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-bottom: 50px;
+	padding-left: 12px;	
+}
+#simplemodal-container-contacto {
+	
+	width:600px;
+	color:#bbb;
+	background-color:#FFF;
+	border:4px solid #444;
+	padding:12px;
+	height: 600px;
+}
+#simplemodal-container .contactoPrincipal{
+	padding-left:150px;
+
+}
+#simplemodal-container .contactoPrincipal {
+	font-family: Petita, Arial, Helvetica, sans-serif;
+	padding-left: 150px;
+	font-size: 12px;
+	color: #069;
+	font-weight: bold;
+}
+#simplemodal-container .contactoPrincipal .llamar {
+	font-size: 14px;
+	font-weight: bold;
+	color: #999;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	text-align:center;
+	width: 280px;
+	height: 50px;
+}
+#simplemodal-container .contactoPrincipal .llamar img {
+	padding-top:10px;
+	float: left;
+	padding-left: 30px;
+}
+#simplemodal-container .contactoPrincipal.llamar span {
+	font-size: 18px;
+	float: left;
+	padding-top: 17px;
+	padding-left: 20px;
+	color:#666666;
+}
+#simplemodal-container .contactoPrincipal input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 260px; /* una longitud definida */
+    border: 1px solid #CED5D7;
+    resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+	color:#666;
+}
+#simplemodal-container .contactoPrincipal input[type='text']:focus, .contacto textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 3px #dde9ec;
+}
+#simplemodal-container .contactoPrincipal input[type='submit']{
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #798e94;
+	border: 1px solid #CED5D7;
+	box-shadow:0 0 0 3px #EEF5F7;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+	background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+	cursor:pointer;
+	margin-left: 160px;
+	padding-top: 8px;
+	padding-right: 16px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+}
+#simplemodal-container .contactoPrincipal input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+#simplemodal-container .contactoPrincipal input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+
+
+
+
+
+<!--///////////////////////////////////////////////////-->
+#simplemodal-container .envioPrincipal{
+	padding-left:80px;
+
+}
+#simplemodal-container .envioPrincipal {
+	font-family: Petita, Arial, Helvetica, sans-serif;
+	padding-left: 80px;
+	
+	font-size: 12px;
+	color: #069;
+	font-weight: bold;
+}
+#simplemodal-container .envioPrincipal input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 260px; /* una longitud definida */
+    border: 1px solid #CED5D7;
+    resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+	color:#666;
+}
+#simplemodal-container .envioPrincipal input[type='text']:focus, .contacto textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 3px #dde9ec;
+}
+#simplemodal-container .envioPrincipal input[type='submit']{
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #798e94;
+	border: 1px solid #CED5D7;
+	box-shadow:0 0 0 3px #EEF5F7;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+	background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+	cursor:pointer;
+	margin-left: 160px;
+	padding-top: 8px;
+	padding-right: 16px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+}
+#simplemodal-container .envioPrincipal input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+#simplemodal-container .envioPrincipal input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+<!--//////////////////////////////////////////////////-->
+
+
+
+#simplemodal-container .simplemodal-data {padding:10px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../../images/basic/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+
+
+
+.contactoPrincipal {
+	font-family: Petita, Arial, Helvetica, sans-serif;
+	padding: 10px;
+	width:280px;
+	font-size: 12px;
+	color: #069;
+	font-weight: bold;
+	
+}
+
+.contactoPrincipal input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    width: 260px; /* una longitud definida */
+    border: 1px solid #CED5D7;
+    resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+	color:#666;
+}
+.contactoPrincipal input[type='text']:focus, .contacto textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 3px #dde9ec;
+}
+.contactoPrincipal input[type='submit']{
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #798e94;
+	border: 1px solid #CED5D7;
+	box-shadow:0 0 0 3px #EEF5F7;
+	border-radius: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+	background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+	background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+	background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+	cursor:pointer;
+	margin-left: 160px;
+	padding-top: 8px;
+	padding-right: 16px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+}
+.contactoPrincipal input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.contactoPrincipal input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
